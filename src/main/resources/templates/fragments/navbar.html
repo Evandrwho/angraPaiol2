@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br" layout:decorate="~{layout}"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4"
+		th:fragment="navbar">
+		<a class="navbar-brand" href="home.html">Angra Paiol</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarCollapse" aria-controls="navbarCollapse"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link"
+					href="/gerencia/exibir"> Menu de Gerência</a>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="#">CONTATO</a></li>
+				<li class="nav-item"><a class="nav-link " href="#"
+					tabindex="-1" aria-disabled="true">SOBRE</a></li>
+			</ul>
+
+		</div>
+	</nav>
+
+</body>
+</html>
